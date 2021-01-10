@@ -7,6 +7,7 @@ using namespace sf;
 
 int main()
 {
+	// 
 	sf::RenderWindow window(sf::VideoMode(1200, 700), "Snake 2: Two Snakes");
 	window.setFramerateLimit(60);
 
@@ -17,10 +18,10 @@ int main()
 
 	Text startText;
 	startText.setFont(font);
-	startText.setString("Press C for Classic Mode \nPress R for Random Mode");
+	startText.setString("Snake 2: Two Snakes\n\n\nInstructions:\nEach Player has 5 moves each turn. \nEach turn, you must eat at least one mouse.\nThe game ends once all blue squares are gone, \nor a player fails to eat a mouse on their turn\n \n \nPress C for Classic Mode \nPress R for Random Mode");
 	startText.setFillColor(Color(75, 75, 75));
 	startText.setCharacterSize(25);
-	startText.setPosition(50, 300);
+	startText.setPosition(50, 150);
 
 	Text midText;
 	midText.setFont(font);
